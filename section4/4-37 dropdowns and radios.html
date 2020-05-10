@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inputs - Dropdowns and Radio Buttons</title>
+    </head>
+
+    <body>
+        
+        <!-- radio buttons and dropdown menus are all input types -->
+
+        <p>Do you prefer cats or dogs?</p>
+
+        <form action="">
+            <!-- to be able to make only one of the given choices, we group them under the same input 'name' attribute -->
+            <!-- remember to add unique 'value' attributes under each input tags -->
+            <label for="dogs">Dogs: </label>
+            <input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+            <label for="cats">Cats: </label>
+            <input name="petChoice" id="cats" type="radio" value="CATS">
+            
+            <!-- 'select' tag allows us to have dropdown menus -->
+            <!-- populate the select tag by nesting 'option' tags -->
+            <!-- <p>What's your favourite color?</p>
+            <select name="colorChoice">
+                <option value="Red">Red</option>
+                <option value="Orange">Orange</option>
+                <option value="Yellow">Yellow</option>
+            </select> -->
+
+            <p>What's your current mood?</p>
+            <select name="moodChoice">
+                <option value="happy">:)</option>
+                <option value="average">:|</option>
+                <option value="sad">:(</option>
+            </select>
+
+            <!-- text only allows 1 line of text, for multiple line texts we use 'textarea' tag -->
+            <!-- can specify 'rows' and 'cols' attributes in textarea tag -->
+            <textarea name="paragraph" cols="30" rows="10"></textarea>
+
+            <button>Go!</button>
+        </form>
+        <input type="checkbox">
+        
+    </body>
+
+</html>
