@@ -1,0 +1,24 @@
+h1{
+    color: rgba(90, 144, 247, 0.4);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid purple;
+
+    /* above syntax is
+    border-style: width style color; */
+}
+
+h4{
+    background-color: orange;
+}
+
+body{
+    /*
+    background-image: url(https://d3fa68hw0m2vcc.cloudfront.net/bf8/232211556.jpeg);
+    background-repeat: no-repeat;
+    /* above makes sure that the background image don't repeat and tile */
+    /* background-size: cover;
+    /* above will make sure the entire webpage is covered by the background image */
+    background: pink;
+}

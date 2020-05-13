@@ -1,0 +1,32 @@
+/* all the li tags inherit the color purple from the ul */
+/* ul{
+    color: purple;
+} */
+
+body{
+    color: red;
+}
+
+/* type selectors are least specific */
+
+ul{
+    color: blue;
+}
+
+li{
+    color: orange;
+}
+
+/* classes are more specific */
+
+.highlight{
+    background-color: yellow;
+}
+
+/* attribute selectors are more specific than classes */
+
+/* ID's are most specific */
+
+#special{
+    color: pink;
+}

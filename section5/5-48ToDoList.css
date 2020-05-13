@@ -1,0 +1,19 @@
+/* body{
+    background: orange;
+} */
+
+/* Element selector - applies to all specified elements */
+li{
+    border: 1px solid purple;
+}
+
+/* ID - must be unique*/
+#special{
+    background-color: yellow;
+}
+
+/* Class can apply the same class to multiple tags */
+.completed{
+    text-decoration: line-through;
+}
+
